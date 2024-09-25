@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/fondoo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a tu plataforma
+        De Confianza"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="16dp"
+        android:fontFamily="@font/roboto_500"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar a tu plataforma"
+        android:backgroundTint="@color/dark_purple"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        android:elevation="4dp"
+        android:fontFamily="@font/roboto_700"
+        android:onClick="onLoginClick"/>
+
+</LinearLayout>
